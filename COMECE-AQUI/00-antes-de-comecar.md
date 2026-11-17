@@ -29,4 +29,4 @@ Abra a sua IA, cole o prompt do [README](../README.md#-comece-em-3-passos) e res
 
 ## 5. Se travar
 1. Copie a mensagem de erro inteira e cole na IA: "isto apareceu, o que significa e como resolvo?".
-2. Se não resolver, abra uma [Discussion](../../../discussions) com o erro (sem senhas).
+2. Se não resolver, abra uma [Discussion](https://github.com/JohnataMoreira/ecossistema-vibecode/discussions) com o erro (sem senhas).

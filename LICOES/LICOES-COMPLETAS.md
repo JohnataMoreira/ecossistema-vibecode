@@ -1,6 +1,6 @@
 # Lições completas — tudo o que o erro nos ensinou
 
-> **Para a IA:** leia este documento **inteiro** antes de trabalhar com o usuário. Ele condensa mais de 200 lições aprendidas construindo produtos reais com IAs. Cada lição tem **Regra** (o que fazer) e **Por quê** (o que aconteceu ou o risco). Use-as para escrever Gate 1 melhores (seção "Armadilhas"), para conferir entregas e para evitar repetir erros caros.
+> **Para a IA:** leia este documento **inteiro** antes de trabalhar com o usuário. Ele condensa 86 lições aprendidas construindo produtos reais com IAs. Cada lição tem **Regra** (o que fazer) e **Por quê** (o que aconteceu ou o risco). Use-as para escrever Gate 1 melhores (seção "Armadilhas"), para conferir entregas e para evitar repetir erros caros.
 > **Para a pessoa:** você não precisa decorar nada. Mas ler os temas 1 e 2 já muda a forma como você dirige IAs.
 > Os exemplos foram anonimizados. Se você descobrir lições novas, conte nas Discussions: as melhores entram aqui.
 
