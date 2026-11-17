@@ -1,0 +1,36 @@
+# Ecossistema Vibecode
+
+> Método, time de IAs e memória em arquivos para construir software com IA sem saber programar. O usuário cola um prompt em uma IA com acesso ao computador e ela monta toda a estrutura, conecta as ferramentas (via Composio) e explica como trabalhar. Idioma principal: português do Brasil.
+
+## Comece por aqui
+- [PROMPT-MESTRE](PROMPT-MESTRE/PROMPT-MESTRE.md): o roteiro que a IA executa, em etapas, com confirmação antes de cada ação
+- [Caminho B, só conversa](PROMPT-MESTRE/PROMPT-CAMINHO-B-SO-CHAT.md): para IAs sem acesso a arquivos
+- [Antes de começar](COMECE-AQUI/00-antes-de-comecar.md): contas e permissões necessárias
+
+## Guia (o método)
+- [01 O que é](GUIA/01-o-que-e-o-ecossistema.md)
+- [02 As IAs e seus papéis](GUIA/02-as-ias-e-seus-papeis.md)
+- [03 Como um projeto nasce](GUIA/03-como-um-projeto-nasce.md)
+- [04 Como o código é construído](GUIA/04-como-o-codigo-e-construido.md)
+- [05 Auditoria cruzada](GUIA/05-auditoria-cruzada.md)
+- [06 Testes](GUIA/06-testes.md)
+- [07 Aprovação e deploy](GUIA/07-aprovacao-e-deploy.md)
+- [08 Limites e segurança](GUIA/08-limites-e-seguranca.md)
+- [09 Memória e sessões](GUIA/09-memoria-e-sessoes.md)
+- [10 Stack para começar](GUIA/10-stack-para-comecar.md)
+- [11 Dia a dia](GUIA/11-dia-a-dia.md)
+- [12 Glossário](GUIA/12-glossario.md)
+
+## Modelos que a IA cria para o usuário
+- [MODELOS](MODELOS): AGENTS, CHECKPOINT, BACKLOG, Gate 1, decisões, DOC_MAP, system prompts (orquestrador, executor, auditor)
+
+## Conectores e automações
+- [Composio](COMPOSIO/README.md): um único caminho para todas as ferramentas
+- [Marquinhos, a Máquina de Posts](MARQUINHOS/README.md): publicação automática nas redes
+- [Carteiro](CARTEIRO/README.md): comentário vira direct com link
+
+## Conhecimento acumulado
+- [Lições completas](LICOES/LICOES-COMPLETAS.md): leia inteiro antes de começar a trabalhar com o usuário
+
+## Optional
+- [Contribuir](CONTRIBUTING.md) · [Segurança](SECURITY.md)

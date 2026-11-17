@@ -1,0 +1,24 @@
+name: 🧪 Contar como foi o meu uso
+description: O que funcionou, o que travou, o que você construiu
+labels: ["relato"]
+body:
+  - type: markdown
+    attributes:
+      value: "Sem segredos, por favor. Seu relato ajuda a melhorar o ecossistema para todos."
+  - type: textarea
+    id: construi
+    attributes:
+      label: O que você está construindo (ou construiu)?
+  - type: textarea
+    id: funcionou
+    attributes:
+      label: O que funcionou bem?
+  - type: textarea
+    id: travou
+    attributes:
+      label: O que travou ou confundiu?
+  - type: dropdown
+    id: nivel
+    attributes:
+      label: Seu nível com tecnologia
+      options: [Nunca programei, Sei um pouco, Já programo]

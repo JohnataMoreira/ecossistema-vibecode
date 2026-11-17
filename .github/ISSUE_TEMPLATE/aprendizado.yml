@@ -1,0 +1,25 @@
+name: 🎓 Compartilhar um aprendizado
+description: Um erro novo, um truque, uma lição que pode entrar nas LIÇÕES
+labels: ["lição"]
+body:
+  - type: input
+    id: titulo
+    attributes:
+      label: Título curto da lição
+    validations: {required: true}
+  - type: textarea
+    id: regra
+    attributes:
+      label: Regra (o que fazer)
+    validations: {required: true}
+  - type: textarea
+    id: porque
+    attributes:
+      label: Por quê (o que aconteceu ou o risco)
+    validations: {required: true}
+  - type: checkboxes
+    id: credito
+    attributes:
+      label: Crédito
+      options:
+        - label: Posso ser citado como autor da lição se ela entrar no documento

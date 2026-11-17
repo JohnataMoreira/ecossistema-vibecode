@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Ecossistema Vibecode">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b18"/><stop offset="1" stop-color="#121a38"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1e2a52" stroke-width="1"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity=".55"/>
+  <g stroke="url(#ac)" stroke-width="2" opacity=".7" filter="url(#glow)">
+    <line x1="930" y1="70" x2="1030" y2="150"/><line x1="1030" y1="150" x2="940" y2="240"/><line x1="930" y1="70" x2="1120" y2="90"/>
+    <line x1="1030" y1="150" x2="1130" y2="220"/><line x1="940" y1="240" x2="1130" y2="220"/><line x1="1120" y1="90" x2="1030" y2="150"/>
+  </g>
+  <g fill="#22d3ee" filter="url(#glow)">
+    <circle cx="930" cy="70" r="9"><animate attributeName="r" values="7;11;7" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="150" r="13"><animate attributeName="r" values="11;15;11" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="240" r="9"><animate attributeName="r" values="7;11;7" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="90" r="8" fill="#a78bfa"/><circle cx="1130" cy="220" r="10" fill="#a78bfa"/>
+  </g>
+  <text x="60" y="120" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" fill="#22d3ee" letter-spacing="6">// PARA QUEM TEM IDEIA, NÃO PRECISA SABER CODAR</text>
+  <text x="60" y="190" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="68" font-weight="800" fill="#ffffff">ECOSSISTEMA <tspan fill="url(#ac)">VIBECODE</tspan></text>
+  <text x="60" y="240" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="24" fill="#aab4d8">Um time de IAs, um método de prova e uma memória em arquivos. Cole um prompt e comece.</text>
+  <rect x="60" y="262" width="150" height="4" rx="2" fill="url(#ac)"/>
+</svg>

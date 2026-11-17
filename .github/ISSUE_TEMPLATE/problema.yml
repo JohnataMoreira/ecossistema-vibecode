@@ -1,0 +1,34 @@
+name: 🐛 Relatar um problema
+description: Algo não funcionou na configuração ou em algum capítulo
+labels: ["problema"]
+body:
+  - type: markdown
+    attributes:
+      value: "⚠️ **Não cole chaves, tokens, senhas, e-mails ou dados de clientes.** Se precisar, troque por `XXXX`."
+  - type: input
+    id: ia
+    attributes:
+      label: Qual IA você usou?
+      placeholder: "Ex.: Claude Desktop, Codex, Antigravity..."
+    validations: {required: true}
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: Seu computador
+      options: [Mac, Windows, Linux]
+    validations: {required: true}
+  - type: textarea
+    id: onde
+    attributes:
+      label: Em que etapa travou?
+      description: "Ex.: Etapa 5 do PROMPT-MESTRE, ao conectar o Composio."
+    validations: {required: true}
+  - type: textarea
+    id: erro
+    attributes:
+      label: O que aconteceu (mensagem de erro, se houver)
+    validations: {required: true}
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que você esperava que acontecesse?

@@ -1,0 +1,20 @@
+nome: ecossistema-vibecode
+versao: 1.0.0
+idioma: pt-BR
+licenca: Apache-2.0
+objetivo: Configurar, com uma IA, um ecossistema de desenvolvimento para quem não sabe codar.
+ponto_de_entrada: PROMPT-MESTRE/PROMPT-MESTRE.md
+arquivos_que_a_ia_cria_para_o_usuario:
+  - AGENTS.md
+  - CHECKPOINT.md
+  - DOC_MAP.md
+  - .agents/BACKLOG.md
+  - .agents/DECISOES_ARQUITETURAIS.md
+  - .agents/LESSONS_LEARNED.md
+  - .agents/propostas/
+  - .agents/historico/
+  - docs/SYSTEM_PROMPT_ORQUESTRADOR.md
+  - docs/ECOSSISTEMA.md
+capitulos_do_guia: 12
+modelos: [AGENTS, CHECKPOINT, BACKLOG, G1, DECISOES, DOC_MAP, SYSTEM_PROMPT_ORQUESTRADOR, SYSTEM_PROMPT_EXECUTOR, SYSTEM_PROMPT_AUDITOR]
+modulos_opcionais: [COMPOSIO, MARQUINHOS, CARTEIRO]
