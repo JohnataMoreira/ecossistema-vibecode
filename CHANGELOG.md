@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4
+- Prompt-mestre, etapa 4: missão, perfil, idioma e time agora têm regra de preenchimento (a IA propõe a missão em uma frase a partir da ideia da pessoa e só grava após o "sim").
+
 ## 1.0.3
 - Corrige falso positivo na checagem final (modelos `G1.md` e `OBSOLETOS.md` mantêm `{{...}}` de propósito) e adiciona equivalentes em PowerShell.
 - Catálogo coerente: `DOC_MAP` lista executor, auditor e `AGENTS.md`; `MANIFEST` e `llms.txt` com os nomes exatos.

@@ -47,7 +47,12 @@ Prova: mostre as versões instaladas.
 ## ETAPA 4 — Baixar o kit e criar o QG do usuário
 1. Em uma pasta temporária, `git clone https://github.com/JohnataMoreira/ecossistema-vibecode` (somente leitura; nunca altere o clone).
 2. Crie `~/Projetos/QG` — o **Quartel-General**: a pasta que guarda a memória e as regras do ecossistema. `git init` nela.
-3. Copie de `MODELOS/` para o QG, **preenchendo os `{{CAMPOS}}`** com as respostas da etapa 1:
+3. Copie de `MODELOS/` para o QG, **preenchendo os `{{CAMPOS}}`** com as respostas da etapa 1. Quatro campos não têm pergunta própria; trate assim:
+   - `{{MISSAO_EM_UMA_FRASE}}`: escreva a missão em **uma frase** a partir da resposta 3 (a ideia ou o projeto), **mostre à pessoa e só grave após o "sim"** ou o ajuste dela. Não invente ambições que ela não disse.
+   - `{{PERFIL}}`: não pergunte. Descreva em uma palavra como a pessoa se mostrou na conversa (ex.: empolgada, cautelosa) e diga a suposição em uma linha; se estiver em dúvida, use "motivada". A pessoa pode trocar depois.
+   - `{{IDIOMA}}`: o idioma em que a pessoa está escrevendo.
+   - `{{LISTA_DO_TIME...}}`: as ferramentas da resposta 5; a etapa 6 refina isso.
+   Arquivos a copiar:
    - `AGENTS.md`, `CHECKPOINT.md`, `DOC_MAP.md` na raiz
    - `.agents/BACKLOG.md`, `.agents/DECISOES_ARQUITETURAIS.md`, `.agents/LESSONS_LEARNED.md` (copie de `LICOES/LICOES-COMPLETAS.md`)
    - `.agents/propostas/` (com o modelo `G1.md`, copiado de `MODELOS/G1.md`), `.agents/historico/` (vazia, com `.gitkeep`)
