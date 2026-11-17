@@ -9,6 +9,9 @@
 | Lições aprendidas | `.agents/LESSONS_LEARNED.md` | — |
 | Quem é quem e fronteiras das IAs | `docs/ECOSSISTEMA.md` | — |
 | Regras do orquestrador | `docs/SYSTEM_PROMPT_ORQUESTRADOR.md` | — |
+| Regras do executor | `docs/SYSTEM_PROMPT_EXECUTOR.md` | — |
+| Regras do auditor | `docs/SYSTEM_PROMPT_AUDITOR.md` | — |
+| Regras gerais para qualquer IA | `AGENTS.md` | — |
 | Ideias descartadas ("não tente de novo") | `docs/OBSOLETOS.md` | — |
 | Tarefas escritas (Gate 1) | `.agents/propostas/` | — |
 | Concluído (arquivo morto) | `.agents/historico/` | — |

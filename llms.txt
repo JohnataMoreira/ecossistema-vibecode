@@ -22,7 +22,7 @@
 - [12 Glossário](GUIA/12-glossario.md)
 
 ## Modelos que a IA cria para o usuário
-- [MODELOS](MODELOS): AGENTS, CHECKPOINT, BACKLOG, Gate 1, decisões, DOC_MAP, system prompts (orquestrador, executor, auditor)
+- [MODELOS](MODELOS): AGENTS, CHECKPOINT, BACKLOG, Gate 1, decisões, DOC_MAP, OBSOLETOS, system prompts (orquestrador, executor, auditor)
 
 ## Conectores e automações
 - [Composio](COMPOSIO/README.md): um único caminho para todas as ferramentas

@@ -7,12 +7,13 @@ Um serviço onde você **conecta cada app uma vez** (GitHub, Gmail, Google Drive
 
 ## Três formas de usar (a IA escolhe a melhor para o seu caso)
 1. **CLI no computador** (a mais simples para IAs com terminal): comando `composio`.
-2. **MCP:** para IAs que aceitam conectores MCP, adicione o Composio Connect: `https://connect.composio.dev/mcp`.
+2. **MCP:** para IAs que aceitam conectores MCP, adicione o Composio Connect: `https://connect.composio.dev/mcp`. (É um endereço de protocolo para clientes MCP: abrir no navegador devolve erro 401, e isso é esperado.)
 3. **Plugin** para Claude Code e Codex (a própria CLI instala).
 
 ## Instalação (a IA faz; você aprova e autoriza no navegador)
 ```bash
-# instalador oficial da Composio (leia a documentação em docs.composio.dev antes de aprovar)
+# Mac/Linux. No Windows, siga o método indicado em docs.composio.dev.
+# instalador oficial da Composio (leia a documentação antes de aprovar)
 curl -fsSL https://composio.dev/install | sh
 composio login          # abre o navegador para você entrar
 composio whoami         # confere a conta (não mostra chaves)

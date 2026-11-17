@@ -78,11 +78,11 @@ Com a ideia da etapa 1: crie a pasta do projeto ao lado do QG (`~/Projetos/<nome
 ## ETAPA 8 — Verificação final (mostre a lista com ✅ ou ❌)
 - [ ] Pasta de trabalho criada e acessível
 - [ ] Git instalado e QG com commit inicial
-- [ ] Todos os arquivos de `MODELOS/` presentes e sem `{{CAMPO}}` sobrando (`grep -rn "{{" QG`)
+- [ ] Todos os arquivos de `MODELOS/` presentes e sem `{{CAMPO}}` sobrando nos arquivos preenchidos; `G1.md` e `OBSOLETOS.md` são modelos de uso futuro e **mantêm** os `{{...}}` de propósito (Mac/Linux: `grep -rn "{{" QG --exclude=G1.md --exclude=OBSOLETOS.md`; Windows PowerShell: `Get-ChildItem QG -Recurse -File -Exclude G1.md,OBSOLETOS.md | Select-String "{{"`)
 - [ ] Lições carregadas em `.agents/LESSONS_LEARNED.md`
 - [ ] Composio: `composio whoami` ok e conectores pedidos ligados
 - [ ] Orquestrador configurado
-- [ ] Nenhum segredo em arquivo versionado (`grep -rniE "(api[_-]?key|token|secret|password)\s*[:=]" QG`)
+- [ ] Nenhum segredo em arquivo versionado (Mac/Linux: `grep -rniE "(api[_-]?key|token|secret|password)\s*[:=]" QG`; Windows PowerShell: `Get-ChildItem QG -Recurse -File | Select-String -Pattern "(api[_-]?key|token|secret|password)\s*[:=]"`)
 Item ❌: corrija antes de seguir.
 
 ## ETAPA 9 — O tour (a parte mais importante)

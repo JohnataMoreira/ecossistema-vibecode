@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3
+- Corrige falso positivo na checagem final (modelos `G1.md` e `OBSOLETOS.md` mantêm `{{...}}` de propósito) e adiciona equivalentes em PowerShell.
+- Catálogo coerente: `DOC_MAP` lista executor, auditor e `AGENTS.md`; `MANIFEST` e `llms.txt` com os nomes exatos.
+- Explica que o endereço MCP do Composio responde 401 no navegador.
+
 ## 1.0.2
 - Vitrine: seção "Como é na prática", perguntas rápidas e imagem social.
 
