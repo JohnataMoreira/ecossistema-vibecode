@@ -35,6 +35,9 @@ Não é um curso e não é um app. É um **método + um time de IAs + uma memór
 
 **1. Tenha uma IA que acesse arquivos do seu computador** (por exemplo Claude Desktop / Claude Code, Codex ou Antigravity). Não sabe qual? Veja [`COMECE-AQUI`](COMECE-AQUI/00-antes-de-comecar.md).
 
+> 🖥️ **Sistemas:** criado e testado em **macOS**. Em Windows e Linux a sua IA detecta o sistema e adapta os comandos; se algo falhar, conte em um [relato](https://github.com/JohnataMoreira/ecossistema-vibecode/issues/new/choose). 
+> 🧩 **Nenhuma IA específica é obrigatória:** funciona sem Codex, sem Antigravity e até com uma IA só (veja [`GUIA/02`](GUIA/02-as-ias-e-seus-papeis.md)).
+
 **2. Cole este prompt na sua IA:**
 
 ```text
@@ -57,8 +60,8 @@ Cada IA tem **um papel**. Misturar papéis é a causa número um de projeto bagu
 | Papel | Quem faz hoje | O que faz |
 |---|---|---|
 | 🧭 **Estrategista / Orquestrador** | Claude (Desktop ou Code) | Decide, escreve a tarefa, confere o que os outros entregam, faz o deploy. É o seu parceiro principal. |
-| 🛠️ **Executor** | Antigravity (Gemini) e Codex (GPT) | Escrevem o código em pastas/branches separados e entregam **com prova**. |
-| 🔍 **Auditor de outra família** | Codex | Revisa o que outro modelo fez. Modelo diferente pega o erro que o primeiro não enxerga. Também cuida dos testes de tela (E2E). |
+| 🛠️ **Executor** | Antigravity (Gemini), Codex (GPT) ou outra IA que escreva código | Escrevem o código em pastas/branches separados e entregam **com prova**. |
+| 🔍 **Auditor de outra família** | Codex, ou qualquer IA de família diferente da do executor | Revisa o que outro modelo fez. Modelo diferente pega o erro que o primeiro não enxerga. Também cuida dos testes de tela (E2E). |
 | 🌐 **Pesquisa e execução visual** | Manus | Pesquisa de mercado e tarefas em sites/painéis que exigem navegador. |
 | 📚 **Pesquisa com o seu contexto** | Gemini + NotebookLM (e Spark) | Debate ideias e escreve texto sabendo o que é o seu projeto. Nunca mexe em produção. |
 | 🔌 **A tomada universal** | Composio | Um único lugar para conectar GitHub, Gmail, Drive, Instagram, Stripe... e todas as IAs usarem. |
@@ -123,10 +126,10 @@ Você **começa nos planos gratuitos** das ferramentas. Quando seus projetos e u
 
 Este ecossistema **melhora com quem usa**. Você vai encontrar problemas, ter ideias, descobrir truques que a gente nunca viu. Isso vale ouro.
 
-- 🗣️ **[Discussions](../../discussions):** dúvidas, ideias, "mostre o seu projeto", dicas e aprendizados.
-- 🐛 **[Relatar um problema](../../issues/new/choose):** algo não funcionou na configuração.
-- 💡 **[Sugerir uma capacidade](../../issues/new/choose):** o que o ecossistema deveria passar a fazer.
-- 🧪 **[Contar como foi o seu uso](../../issues/new/choose):** o que funcionou, o que travou.
+- 🗣️ **[Discussions](https://github.com/JohnataMoreira/ecossistema-vibecode/discussions):** dúvidas, ideias, "mostre o seu projeto", dicas e aprendizados.
+- 🐛 **[Relatar um problema](https://github.com/JohnataMoreira/ecossistema-vibecode/issues/new/choose):** algo não funcionou na configuração.
+- 💡 **[Sugerir uma capacidade](https://github.com/JohnataMoreira/ecossistema-vibecode/issues/new/choose):** o que o ecossistema deveria passar a fazer.
+- 🧪 **[Contar como foi o seu uso](https://github.com/JohnataMoreira/ecossistema-vibecode/issues/new/choose):** o que funcionou, o que travou.
 - 🤖 **Deixe a sua IA ajudar:** peça a ela `gerar meu feedback`. Ela escreve o relato **sem segredos** para você só colar.
 
 Veja [`CONTRIBUTING.md`](CONTRIBUTING.md). Se este projeto te ajudou, **uma ⭐ ajuda outras pessoas a encontrá-lo.**

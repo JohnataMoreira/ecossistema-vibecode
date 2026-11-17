@@ -3,7 +3,7 @@
 > Alguém comenta uma palavra-chave no seu post ou Reel e recebe **automaticamente** uma mensagem direta com o link ou material. **Sem mensalidade de ferramenta de terceiros**, dentro das regras da Meta. Aqui está o desenho e o prompt para a sua IA construir o seu.
 
 ## Resposta rápida às dúvidas mais comuns
-- **A pessoa precisa me seguir para receber?** **Não.** Pela documentação oficial da Meta (*Private Replies*), quem segue recebe na Caixa de entrada; quem não segue recebe em **Solicitações de mensagem**. O link chega nos dois casos. Peça no vídeo "segue para mais novidades" como convite, não como condição.
+- **A pessoa precisa me seguir para receber?** **Não.** Pela [documentação oficial da Meta (*Private Replies*)](https://developers.facebook.com/documentation/business-messaging/instagram-messaging/features/private-replies), quem segue recebe na Caixa de entrada; quem não segue recebe em **Solicitações de mensagem**. O link chega nos dois casos. Peça no vídeo "segue para mais novidades" como convite, não como condição.
 - **Quantas mensagens posso mandar?** Uma **única** mensagem por comentário, em até **7 dias**. Só se a pessoa responder abre-se uma janela de 24 h para continuar a conversa.
 - **Que conta preciso?** Instagram **profissional** (Comercial ou Criador) e pública, com **"Permitir acesso a mensagens"** ligado e, no caminho atual, uma **Página do Facebook vinculada**.
 - **Preciso de aprovação da Meta?** Para **as suas próprias contas**, em modo de desenvolvimento, não. Para atender contas de terceiros, sim (verificação do negócio e revisão do app).

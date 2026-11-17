@@ -15,6 +15,7 @@
 6. **Nada destrutivo sem OK explícito:** apagar, sobrescrever arquivo existente, gastar dinheiro, publicar em nome da pessoa, mexer em domínio.
 7. **Pronto = prova.** Ao fim de cada etapa, mostre a prova (arquivo criado, comando e saída).
 8. Se o seu ambiente não tem acesso a arquivos/terminal, **pare** e use `PROMPT-CAMINHO-B-SO-CHAT.md`.
+9. **Sistema operacional.** Este ecossistema foi criado em macOS. Detecte o sistema da pessoa (resposta 2 da etapa 1 e, no terminal, `uname` ou `$env:OS`) e **adapte todas as configurações**: comandos, caminhos, instaladores e verificações (por exemplo, no Windows use PowerShell, `Select-String` no lugar de `grep` e `C:\Users\<usuario>\Projetos`). Diga em uma linha o que adaptou. Se não houver equivalente confiável, caia para o Caminho B.
 
 ---
 
@@ -32,7 +33,7 @@ Guarde as respostas. Se algo ficar vago, **assuma o mais simples e diga a suposi
 
 ## ETAPA 2 — Acesso ao computador (explique com calma)
 Explique: "Para criar arquivos e rodar comandos, a IA precisa de uma permissão. Vamos dar acesso **a uma pasta só**, não ao computador inteiro."
-1. Proponha a pasta: `~/Projetos` (Mac/Linux) ou `C:\Users\<usuario>\Projetos` (Windows). Crie-a **só após o "sim"**.
+1. Proponha a pasta: `~/Projetos` (Mac/Linux) ou `C:\Users\<usuario>\Projetos` (Windows). Crie-a **só após o "sim"**. Se a pasta já existir com outros projetos, proponha uma pasta nova (ex.: `Ecossistema`). Onde as etapas abaixo dizem `~/Projetos`, leia "a pasta combinada".
 2. Oriente como liberar essa pasta na sua ferramenta (cada IA tem o seu jeito; consulte a configuração da ferramenta em uso, por exemplo "pastas permitidas" ou "permitir acesso a arquivos"). Se a ferramenta pedir aprovação por comando, explique que isso é uma **proteção** e que a pessoa deve ler e aprovar.
 3. Prova: liste a pasta vazia. Se não conseguir listar, **pare** e diagnostique (erro de permissão é falha a resolver, não falta de acesso definitiva).
 
@@ -49,8 +50,9 @@ Prova: mostre as versões instaladas.
 3. Copie de `MODELOS/` para o QG, **preenchendo os `{{CAMPOS}}`** com as respostas da etapa 1:
    - `AGENTS.md`, `CHECKPOINT.md`, `DOC_MAP.md` na raiz
    - `.agents/BACKLOG.md`, `.agents/DECISOES_ARQUITETURAIS.md`, `.agents/LESSONS_LEARNED.md` (copie de `LICOES/LICOES-COMPLETAS.md`)
-   - `.agents/propostas/` (com `G1_MODELO.md`), `.agents/historico/` (vazia, com `.gitkeep`)
+   - `.agents/propostas/` (com o modelo `G1.md`, copiado de `MODELOS/G1.md`), `.agents/historico/` (vazia, com `.gitkeep`)
    - `docs/SYSTEM_PROMPT_ORQUESTRADOR.md`, `docs/SYSTEM_PROMPT_EXECUTOR.md`, `docs/SYSTEM_PROMPT_AUDITOR.md`
+   - `docs/OBSOLETOS.md` (copie de `MODELOS/OBSOLETOS.md`: a lista de ideias descartadas que o `DOC_MAP.md` aponta como dono)
    - `docs/ECOSSISTEMA.md` — escreva a partir de `GUIA/02-as-ias-e-seus-papeis.md`, **só com as ferramentas que a pessoa tem**.
 4. **Nunca sobrescreva** arquivo que já exista: se existir, mostre o diff e pergunte.
 5. Primeiro commit: `chore: cria o QG do ecossistema`.
@@ -58,13 +60,14 @@ Prova: mostre as versões instaladas.
 
 ## ETAPA 5 — Composio: o caminho único das ferramentas
 Leia `COMPOSIO/README.md`. Explique: "Composio é uma tomada universal: você conecta cada app uma vez e todas as IAs usam."
-1. Com "sim", instale a CLI e faça login (a pessoa autoriza no navegador): `curl -fsSL https://composio.dev/install | sh` e depois `composio login`. Prove com `composio whoami`.
+1. Antes de instalar, mostre o link da documentação oficial (https://docs.composio.dev) e explique em uma frase que o comando oficial **baixa e executa um instalador da internet** (por isso vale a regra de não rodar o que não foi lido). Só com um novo "sim", instale a CLI pelo método oficial do sistema da pessoa: no Mac/Linux, `curl -fsSL https://composio.dev/install | sh`; no Windows, o método que a documentação indicar (não invente). Depois, `composio login` (a pessoa autoriza no navegador). Prove com `composio whoami`.
 2. Conecte **só** o que a pessoa pediu na etapa 1 (ex.: `composio link github`). Cada conexão abre o navegador para a pessoa autorizar.
 3. Se a sua IA usa MCP, mostre onde adicionar o Composio Connect (`https://connect.composio.dev/mcp`) nas configurações dela.
 4. Regra: chave de API do Composio **nunca** no chat, em commit ou em documento.
 5. Prova: `composio link` listado e uma chamada de leitura simples (por exemplo, listar os repositórios do GitHub) executada com sucesso.
 
-## ETAPA 6 — Configurar a IA principal (o Orquestrador)
+## ETAPA 6 — Definir o time e configurar a IA principal (o Orquestrador)
+0. **Defina o time com a pessoa.** Explique em linguagem simples que existem três papéis (orquestrador, executor, auditor) e que são papéis, não marcas: **nenhuma IA específica é obrigatória** (funciona sem Codex, sem Antigravity e até com uma IA só). Apresente os cenários de `GUIA/02-as-ias-e-seus-papeis.md` (A: uma IA; B: duas de famílias diferentes; C: três ou mais), pergunte **quais IAs ela vai usar e quem faz cada papel**, e registre em `docs/ECOSSISTEMA.md` e `AGENTS.md`. Regra fixa: o auditor de uma tarefa é sempre de família diferente do executor; se só houver uma família, explique a limitação e o que compensa (conversa nova, testes, prova literal).
 1. Mostre `docs/SYSTEM_PROMPT_ORQUESTRADOR.md` já preenchido e explique cada seção em linguagem simples.
 2. Oriente a pessoa a colocá-lo nas **instruções do projeto** (ou nas instruções personalizadas) da ferramenta dela, e a abrir conversas dentro desse projeto/pasta. Se a ferramenta lê arquivos da pasta, dispense a colagem e use o `AGENTS.md`.
 3. Para as outras IAs que a pessoa tem, indique onde colocar `SYSTEM_PROMPT_EXECUTOR.md` e `SYSTEM_PROMPT_AUDITOR.md`.

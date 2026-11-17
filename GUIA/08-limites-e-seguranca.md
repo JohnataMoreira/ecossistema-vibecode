@@ -29,4 +29,4 @@ Login e permissões, cobrança, dados de menores, webhooks. A IA pode escrever, 
 Antes de tornar qualquer repositório público: varredura de segredos, lista de termos proibidos e revisão humana. Publicar é praticamente irreversível (cópias, caches).
 
 ## Atenção a prompts de terceiros
-Nunca cole em uma IA com acesso ao computador um prompt que você não leu. Desconfie de comandos que baixam e executam um script de uma vez (`curl ... | sh`), que apagam pastas em massa, que pedem privilégio de administrador ou que mandam enviar arquivos para fora. Peça à IA para **explicar cada comando antes de aprovar**.
+Nunca cole em uma IA com acesso ao computador um prompt que você não leu. Desconfie de comandos que baixam e executam um script de uma vez (`curl ... | sh`), que apagam pastas em massa, que pedem privilégio de administrador ou que mandam enviar arquivos para fora. Peça à IA para **explicar cada comando antes de aprovar**. Exceção consciente: instaladores oficiais (como o do Composio) usam esse formato; nesse caso, confira o endereço na documentação oficial e peça à IA para explicar antes do "sim".
