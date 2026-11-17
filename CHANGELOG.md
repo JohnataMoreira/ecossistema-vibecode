@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+- Vitrine: seção "Como é na prática", perguntas rápidas e imagem social.
+
 ## 1.0.1
 - Correções de acabamento: contagem real de lições (86); modelo `G1.md` com nome consistente; `docs/OBSOLETOS.md` agora é criado; links de feedback absolutos; fonte oficial da Meta no Carteiro; aviso sobre o instalador `curl | sh` do Composio.
 - Sistemas: declarado "criado em macOS" e regra para a IA detectar Windows/Linux e adaptar.

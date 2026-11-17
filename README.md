@@ -9,7 +9,7 @@
 ![Começa](https://img.shields.io/badge/começa-em%20planos%20gratuitos-34d399?style=for-the-badge)
 ![IA](https://img.shields.io/badge/feito%20para-humanos%20e%20IAs-f472b6?style=for-the-badge)
 
-**[Comece agora](#-comece-em-3-passos)** · **[Conheça o time de IAs](#-o-time-quem-é-quem)** · **[Como o código nasce](#-como-um-projeto-nasce-e-chega-ao-ar)** · **[Dê seu feedback](#-feedback-queremos-aprender-com-você)**
+**[Comece agora](#-comece-em-3-passos)** · **[Veja na prática](#-como-é-na-prática)** · **[Conheça o time de IAs](#-o-time-quem-é-quem)** · **[Como o código nasce](#-como-um-projeto-nasce-e-chega-ao-ar)** · **[Dê seu feedback](#-feedback-queremos-aprender-com-você)**
 
 </div>
 
@@ -50,6 +50,27 @@ me explique o que vai fazer e peça minha confirmação.
 **3. Responda às perguntas dela.** Quando terminar, você terá o ecossistema montado e uma explicação de tudo o que pode fazer.
 
 > 🔒 **Leia antes de colar.** Nunca cole um prompt que você não leu em uma IA com acesso ao seu computador. O nosso é aberto, curto e só pede confirmação antes de agir: [leia aqui](PROMPT-MESTRE/PROMPT-MESTRE.md). Sem acesso ao computador? Use o [caminho B (só conversa)](PROMPT-MESTRE/PROMPT-CAMINHO-B-SO-CHAT.md).
+
+---
+
+## 🎬 Como é na prática
+
+> Exemplo ilustrativo dos primeiros minutos. A conversa real varia com a sua IA e com as suas respostas.
+
+```text
+Você ▸ Leia o PROMPT-MESTRE.md do ecossistema-vibecode e execute comigo, passo a passo.
+IA   ▸ Oi! Vou ser a sua instaladora. Vamos conversar, criar uma pasta, copiar modelos
+       e conectar suas ferramentas. Nada acontece sem o seu "sim", e você pode dizer
+       "pare" quando quiser. Posso começar?
+Você ▸ Pode.
+IA   ▸ Seis perguntas rápidas: como prefere ser chamada? Mac, Windows ou Linux?
+       Qual a sua ideia? Qual o seu nível com tecnologia? Quais IAs você já usa?
+       Quer conectar redes sociais ou e-mail agora?
+Você ▸ ...
+IA   ▸ Vou criar a pasta do seu "Quartel-General" (a memória do ecossistema).
+       O que é: uma pasta com regras e memória. O que muda: só cria arquivos novos.
+       Como desfazer: apagar a pasta. Posso criar?
+```
 
 ---
 
@@ -119,6 +140,30 @@ A regra que sustenta tudo: **"pronto" é quando existe prova, não quando a IA d
 ## 💸 E o custo?
 
 Você **começa nos planos gratuitos** das ferramentas. Quando seus projetos e usuários crescerem e você quiser mais limite ou recursos, aí você escolhe o que assinar. Isso é entre você e cada ferramenta; o método aqui não depende de gastar. Os limites de cada plano são das ferramentas: confira nos sites delas.
+
+---
+
+## ❓ Perguntas rápidas
+
+<details><summary><b>Preciso saber programar?</b></summary>
+Não. O método foi feito para quem dirige IAs sem programar. Você decide e aprova; a IA constrói e mostra a prova.
+</details>
+
+<details><summary><b>Funciona em Windows e Linux?</b></summary>
+Foi criado e testado em macOS. Nos outros sistemas a sua IA detecta onde está e adapta os comandos; se algo falhar, <a href="https://github.com/JohnataMoreira/ecossistema-vibecode/issues/new/choose">conte para nós</a>.
+</details>
+
+<details><summary><b>Preciso de Codex, Antigravity ou Claude específicos?</b></summary>
+Não. Papéis são fixos; as marcas são escolha sua. Dá para começar com uma IA só e somar outras depois. Veja o <a href="GUIA/02-as-ias-e-seus-papeis.md">capítulo 2</a>.
+</details>
+
+<details><summary><b>É seguro?</b></summary>
+O prompt é aberto, curto e pede o seu "sim" antes de cada ação. Segredos nunca vão para o chat, e uma varredura automática procura vazamentos a cada envio. Leia o <a href="GUIA/08-limites-e-seguranca.md">capítulo de limites e segurança</a>.
+</details>
+
+<details><summary><b>Quanto custa?</b></summary>
+Você começa nos planos gratuitos das ferramentas. O que assinar depois é escolha sua.
+</details>
 
 ---
 

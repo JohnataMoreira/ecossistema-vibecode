@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b18"/><stop offset="1" stop-color="#14204a"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <pattern id="g" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#1e2a52" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/><rect width="1280" height="640" fill="url(#g)" opacity=".5"/>
+  <g stroke="url(#ac)" stroke-width="3" opacity=".8">
+    <line x1="930" y1="150" x2="1070" y2="270"/><line x1="1070" y1="270" x2="950" y2="410"/><line x1="930" y1="150" x2="1180" y2="190"/>
+    <line x1="1070" y1="270" x2="1190" y2="380"/><line x1="950" y1="410" x2="1190" y2="380"/><line x1="1180" y1="190" x2="1070" y2="270"/>
+  </g>
+  <g fill="#22d3ee"><circle cx="930" cy="150" r="14"/><circle cx="1070" cy="270" r="20" fill="#a78bfa"/><circle cx="950" cy="410" r="14"/><circle cx="1180" cy="190" r="12" fill="#f472b6"/><circle cx="1190" cy="380" r="16" fill="#34d399"/></g>
+  <text x="80" y="250" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="92" font-weight="800" fill="#ffffff">Ecossistema</text>
+  <text x="80" y="350" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="92" font-weight="800" fill="url(#ac)">Vibecode</text>
+  <text x="80" y="430" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="34" fill="#cbd5f5">Construa software com IA, sem saber codar.</text>
+  <text x="80" y="480" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="26" fill="#8b9ad0">Um prompt  ·  um time de IAs  ·  memória em arquivos  ·  prova, não promessa</text>
+  <text x="80" y="580" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="24" fill="#22d3ee">github.com/JohnataMoreira/ecossistema-vibecode</text>
+</svg>
