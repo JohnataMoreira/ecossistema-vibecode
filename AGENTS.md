@@ -17,4 +17,4 @@ Este repositório é um **kit** para configurar um ecossistema de desenvolviment
 - **Pronto = prova.** Mostre saída de teste, diff ou arquivo criado, não só a afirmação.
 
 ## Mapa do repositório
-`COMECE-AQUI/` · `PROMPT-MESTRE/` · `GUIA/` · `MODELOS/` · `COMPOSIO/` · `MARQUINHOS/` · `CARTEIRO/` · `LICOES/` · `.github/`
+`COMECE-AQUI/` · `PROMPT-MESTRE/` · `GUIA/` · `MODELOS/` · `COMPOSIO/` · `CARTEIRO/` · `LICOES/` · `.github/`

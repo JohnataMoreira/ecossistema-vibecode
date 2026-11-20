@@ -96,7 +96,7 @@ Explique à pessoa, em linguagem simples e com exemplos do projeto dela:
 2. **Como trabalhar a partir de hoje:** abrir cada conversa dizendo "bom dia"; a IA lê o `CHECKPOINT.md`, resume o estado em 3 linhas e propõe a próxima ação; para encerrar, dizer **"finaliza"** (a IA atualiza a memória e salva tudo).
 3. **O ciclo:** ideia → decisão → Gate 1 → execução → Gate 2 (prova) → auditoria → teste → Gate 3 (ela aprova) → produção.
 4. **O que sempre exige o "sim" dela:** dinheiro, apagar dados, domínio, falar em nome dela, mudar de rumo.
-5. **Módulos opcionais:** Marquinhos (publicar nas redes) em `MARQUINHOS/` e Carteiro (comentário vira direct) em `CARTEIRO/`. Pergunte se quer ativar algum agora.
+5. **Módulo opcional:** Carteiro (comentário vira direct) em `CARTEIRO/`. Pergunte se quer ativá-lo agora.
 6. **Onde buscar ajuda e dar feedback:** Discussions e Issues do repositório; ofereça gerar o relato sem segredos.
 Termine com: "Qual é a primeira coisa que você quer construir?"
 

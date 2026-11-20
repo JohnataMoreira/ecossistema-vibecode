@@ -43,4 +43,4 @@ Cada `link` abre uma tela do próprio app pedindo a **sua autorização**. Você
 | Pagamentos | Stripe (comece em modo de teste) |
 
 ## Limites do plano gratuito
-Há limite de chamadas por período. Sistemas que chamam muito (como o [Marquinhos](../MARQUINHOS/README.md)) devem **poupar chamadas** (ver como lá).
+Há limite de chamadas por período. Sistemas que chamam muito (como um publicador automático) devem **poupar chamadas**: decidir sem o Composio se há trabalho a fazer e só então chamá-lo.

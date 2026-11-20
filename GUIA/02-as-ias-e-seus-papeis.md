@@ -42,7 +42,7 @@ Todas as conexões (GitHub, Gmail, Drive, Instagram, Stripe, Cloudflare...) em u
 ## Como montar o seu time aos poucos
 - **Nível 1:** só o Orquestrador + memória + Gates.
 - **Nível 2:** + um segundo modelo como executor/auditor.
-- **Nível 3:** + pesquisa/visual, Marquinhos e Carteiro.
+- **Nível 3:** + pesquisa/visual e Carteiro.
 O prompt-mestre configura apenas o que você tem hoje.
 
 ## Cenários: com quais IAs você conta?

@@ -122,7 +122,6 @@ A regra que sustenta tudo: **"pronto" é quando existe prova, não quando a IA d
 | [`GUIA/`](GUIA) | 12 capítulos: o método, as IAs, o ciclo do projeto, auditoria, testes, aprovação, limites, memória, stack, dia a dia, glossário |
 | [`MODELOS/`](MODELOS) | Os arquivos-modelo que a IA cria para você: memória, tarefas, decisões, system prompts |
 | [`COMPOSIO/`](COMPOSIO) | Conectar todas as ferramentas por um único caminho |
-| [`MARQUINHOS/`](MARQUINHOS) | A **Máquina de Posts**: publica nas redes sozinha, com travas e alertas |
 | [`CARTEIRO/`](CARTEIRO) | Comentou a palavra, recebeu o link no direct, sem mensalidade |
 | [`LICOES/`](LICOES/LICOES-COMPLETAS.md) | Todos os erros e aprendizados em **um** documento, para a sua IA já nascer experiente |
 

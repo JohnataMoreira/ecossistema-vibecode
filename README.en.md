@@ -8,6 +8,6 @@ A complete, free-to-start **AI-assisted software development ecosystem for non-c
 
 **Start:** open [`PROMPT-MESTRE/PROMPT-MESTRE.md`](PROMPT-MESTRE/PROMPT-MESTRE.md). AI agents: read [`AGENTS.md`](AGENTS.md) and [`llms.txt`](llms.txt).
 
-Also included: **Marquinhos** (an automatic social-media publisher with safeguards and alerts), **Carteiro** (comment-keyword to Instagram DM with a link, no subscription) and a single document of lessons learned.
+Also included: **Carteiro** (comment-keyword to Instagram DM with a link, no subscription) and a single document of lessons learned.
 
 Feedback welcome via Discussions and Issues. License: Apache-2.0. Educational material, no warranty.

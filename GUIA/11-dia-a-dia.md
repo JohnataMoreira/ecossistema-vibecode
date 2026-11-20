@@ -16,7 +16,6 @@
 
 ## O que o ecossistema consegue fazer por você
 - Construir sites, apps e landing pages.
-- Publicar nas redes de forma agendada ([Marquinhos](../MARQUINHOS/README.md)).
 - Entregar um link no direct para quem comenta uma palavra ([Carteiro](../CARTEIRO/README.md)).
 - Pesquisar mercado e concorrentes.
 - Auditar segurança e testar telas.

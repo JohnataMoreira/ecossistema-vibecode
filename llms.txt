@@ -26,7 +26,6 @@
 
 ## Conectores e automações
 - [Composio](COMPOSIO/README.md): um único caminho para todas as ferramentas
-- [Marquinhos, a Máquina de Posts](MARQUINHOS/README.md): publicação automática nas redes
 - [Carteiro](CARTEIRO/README.md): comentário vira direct com link
 
 ## Conhecimento acumulado

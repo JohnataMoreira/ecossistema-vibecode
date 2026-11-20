@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.5
+- Removido o módulo opcional de publicação automática nas redes: o sistema de origem foi descontinuado e não tem mais manutenção. Composio e Carteiro seguem como módulos opcionais.
+
 ## 1.0.4
 - Prompt-mestre, etapa 4: missão, perfil, idioma e time agora têm regra de preenchimento (a IA propõe a missão em uma frase a partir da ideia da pessoa e só grava após o "sim").
 
@@ -17,4 +20,4 @@
 - Time flexível: nenhuma IA específica é obrigatória; cenários A/B/C; regra "auditor de família diferente do executor".
 
 ## 1.0.0
-- Primeira versão pública: prompt-mestre, guia em 12 capítulos, modelos, Composio, Marquinhos (Máquina de Posts), Carteiro, lições completas, formulários de feedback.
+- Primeira versão pública: prompt-mestre, guia em 12 capítulos, modelos, Composio, módulo de publicação automática (removido na 1.0.5), Carteiro, lições completas, formulários de feedback.
